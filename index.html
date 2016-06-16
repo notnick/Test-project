@@ -4,13 +4,38 @@
     <meta charset="utf-8">
     <title>Test Project</title>
     <style>
+            @font-face {
+                font-family: 'PABLO';
+                src: url('font/PABLO.ttf');
+                font-weight: normal;
+                font-style: normal;
+        }
+        @font-face {
+            font-family: 'OldLondon';
+            src: url('font/OldLondon.ttf');
+            font-weight: normal;
+            font-style: normal;
+    }
         body{
-          background-color: #ddd;
+          background-color: #c4213e;
+          color:#f46e4d;
+          font-size:8em;
+          text-align: center;
+          font-family: 'PABLO','OldLondon';
+          margin:0px;
+        }
+        .wrapper{
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
     </style>
   </head>
   <body>
-        <h1> Test Project </h1>
+      <div class="wrapper">
+        <div>  FEEL LIKE PABLO </div>
+      </div>
 
   </body>
 </html>
