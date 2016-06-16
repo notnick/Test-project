@@ -3,7 +3,7 @@ var plan = require('flightplan');
 // configuration
 plan.target('production', [
   {
-    host: 'icodefish.com',
+    host: 'server142.web-hosting.com',
     username: 'icodsvre',
     port: 21098,
     agent: process.env.SSH_AUTH_SOCK
